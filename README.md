@@ -1,15 +1,15 @@
-# Date Script 2
+# Date Script - Python
 
 ---
 
 Created By Kevin Edmond
 
-Repository for Date Script: Insert Here
+Repository for Date Script: Interactive python script that simulates a two poeple going on a date.
 
 ### Instructions:
 
-1. Insert Here
+1. Run the script by using the command: `python3 date.py`
 
 ### Script Logic:
 
-1. Insert Here
+1. To Be Add
