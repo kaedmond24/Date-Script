@@ -78,9 +78,9 @@ restaurants = {
 
 # Restaurant Greeting
 print(" ")
-print(" ***** ***** ***** ***** ***** ")
-print(f"    Welecome to {restaurants[restaurant_level]['name']}!")
-print(" ***** ***** ***** ***** ***** ")
+print(" ***** ***** ***** ***** ***** ***** ***** ")
+print(f"Welecome to {restaurants[restaurant_level]['name']}!")
+print(" ***** ***** ***** ***** ***** ***** ***** ")
 print(" ")
 print(f"Waiter: Hello, {my_name} and {date_name}!")
 print("Waiter: Can I take your order?")
@@ -101,10 +101,10 @@ print("...and what would you like to drink?")
 print(restaurants[restaurant_level]['drink'])
 
 # Get drink menu orders
-my_drink_order = input("Your Menu Order: ").lower()
+my_drink_order = input("Your Drink Order: ").lower()
 order_total += restaurants[restaurant_level]['drink'][my_drink_order]
 
-date_drink_order = input("Date's Menu Order: ").lower()
+date_drink_order = input("Date's Drink Order: ").lower()
 order_total += restaurants[restaurant_level]['drink'][date_drink_order]
 
 
